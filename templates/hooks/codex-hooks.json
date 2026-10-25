@@ -1,0 +1,27 @@
+{
+  "description": "done-done：自動模式的停止閘門，以及新 session 的接手提醒",
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 ~/.codex/skills/done-done/scripts/loop_hook.py",
+            "timeout": 30
+          }
+        ]
+      }
+    ],
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 ~/.codex/skills/done-done/scripts/loop_hook.py",
+            "timeout": 30
+          }
+        ]
+      }
+    ]
+  }
+}

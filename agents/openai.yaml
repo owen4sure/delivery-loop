@@ -1,0 +1,4 @@
+interface:
+  display_name: "Done Done"
+  short_description: "大型網站與系統專案：開工訪談、並行工作單、盲測驗收、問題文件，一路推進到交付與維護"
+  default_prompt: "使用 $done-done 完成這個專案：先做開工訪談把方向問清楚，再建立或接續 .done-done/，依工作單推進到交付。"
